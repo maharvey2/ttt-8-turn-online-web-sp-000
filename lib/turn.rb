@@ -11,8 +11,8 @@ end
 
 #input by player part
 def turn(board)
-puts "Welcome to Tic Tac Toe!"
-print "Please enter 1-9:"
+print "Welcome to Tic Tac Toe!"
+puts "Please enter 1-9:"
 input = gets.strip
 
 index = input_to_index(input)
