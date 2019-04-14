@@ -13,7 +13,7 @@ end
 def turn(board)
 puts "Welcome to Tic Tac Toe!"
 print "Please enter 1-9:"
-input_to_index = gets.strip
+input = gets.strip
 
 index = input_to_index(input)
 move(board,index)
