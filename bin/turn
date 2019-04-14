@@ -9,7 +9,7 @@ display_board(board)
 
 def turn(board)
 puts "Welcome to Tic Tac Toe!"
-print "Please enter 1-9:"
+print "Please enter 1-9"
 input_to_index = gets.strip
 
 index = input_to_index(input)
