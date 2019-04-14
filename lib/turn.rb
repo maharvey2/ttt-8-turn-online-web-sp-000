@@ -9,6 +9,16 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+#input by player part
+def turn(board)
+puts "Welcome to Tic Tac Toe!"
+print "Please enter 1-9:"
+input_to_index = gets.strip
+
+index = input_to_index(input)
+move(board,index)
+end
+
 
 #valid_move?
 def valid_move?(board, index)
