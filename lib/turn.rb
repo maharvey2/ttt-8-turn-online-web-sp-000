@@ -10,14 +10,14 @@ def display_board(board)
 end
 
 #input by player part
-def turn(board)
-print "Welcome to Tic Tac Toe!"
-puts "Please enter 1-9:"
-input = gets.strip
+#def turn(board)
+#print "Welcome to Tic Tac Toe!"
+#puts "Please enter 1-9:"
+#input = gets.strip
 
-index = input_to_index(input)
-move(board,index)
-end
+#index = input_to_index(input)
+#move(board,index)
+#end
 
 
 #valid_move?
