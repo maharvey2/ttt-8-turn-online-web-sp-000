@@ -14,7 +14,7 @@ def turn(board)
 print "Welcome to Tic Tac Toe!"
 puts "Please enter 1-9:"
 input = gets.strip
-if valid_move = true
+if valid_move(board,0) = true
 else puts "Please enter 1-9:"
 end
 
