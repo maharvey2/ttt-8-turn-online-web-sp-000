@@ -15,7 +15,7 @@ print "Welcome to Tic Tac Toe!"
 puts "Please enter 1-9:"
 input = gets.strip
 if valid_move = true
-else puts
+else puts "Please enter 1-9:"
 end
 
 index = input_to_index(input)
