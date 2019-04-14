@@ -17,4 +17,4 @@ move(board,index)
 end
 
 
-# i assume this is where i loop somehow 
+# i assume this is where i loop somehow
