@@ -1,1 +1,20 @@
 #!/usr/bin/env ruby
+require_relative '../lib/turn'
+board = [" ", "X", " ", "X", " ", "X", " ", "X", " "]
+
+puts "Welcome to Tic Tac Toe!"
+display_board(board)
+
+#input by player part
+
+def turn(board)
+puts "Welcome to Tic Tac Toe!"
+puts "Please enter 1-9:"
+input = gets.strip
+
+index = input_to_index(input)
+move(board,index)
+end
+
+
+# i assume this is where i loop somehow 
