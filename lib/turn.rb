@@ -14,6 +14,9 @@ def turn(board)
 print "Welcome to Tic Tac Toe!"
 puts "Please enter 1-9:"
 input = gets.strip
+if valid_move = true
+else puts
+end
 
 index = input_to_index(input)
 move(board,index)
